@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RetroFit</string>
+    <string name="apikey">#ENTER YOUR APIKEY OF MOVIE DB</string>
+</resources>

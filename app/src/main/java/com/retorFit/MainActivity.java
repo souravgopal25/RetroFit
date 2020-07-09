@@ -68,8 +68,11 @@ public class MainActivity extends AppCompatActivity {
                 List<MovieResults.ResultsBean> listofMovies= results.getResults();
                 //TO CHECK
                 Log.e(TAG,"NO OF MOVIES IS"+listofMovies.size());
-                MovieResults.ResultsBean s=listofMovies.get(0);
-                display.setText(s.getTitle());
+                for(int i=0;i<listofMovies.size();i++){
+                    MovieResults.ResultsBean s=listofMovies.get(i);
+                    display.append(s.getTitle()+"\n\n");
+                }
+
 
             }
 

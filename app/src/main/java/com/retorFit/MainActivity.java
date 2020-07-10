@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     *GET popular movie
     *
      */
-    //https://api.themoviedb.org/3/movie/popular?api_key=c116a273a05858824b03df6c4cfcbf20&language=en-US&page=1
+   
 
 
     public static int page=1;
